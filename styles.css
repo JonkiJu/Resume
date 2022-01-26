@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap'); */
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Roboto', sans-serif;
+     
+    
+  }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+a:active {
+    color: rgb(255, 0, 0); 
+}
+
+a:visited {
+    color: gray
+}
+
+.face {
+    width: 200px;
+    border-radius: 20% ;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 025);
+}
+
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+/* Text full CAPS, or full small and... */
+    /* text-transform: ; */
+/* The number of pixels between letters  */
+    /* letter-spacing: 15px; */
+/* The number of pixels between words  */
+    /* word-spacing: 42px; */
+}
+/* Box Model */
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+
+}
+
+@media (max-width: 700px) {
+  .info-text,
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+}
+
+
+
+
+.info-text {
+  padding-left: 20px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.bg-green {
+  background: #cbface;
+}
+
+.bg-yellow {
+  background: #faf1c2;
+}
+
+.bg-red {
+  background: #ffd3d3;
+}
+
+
+
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+ border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+ color: #86898f;
+ margin-bottom: 10px;
+}
+
+.work-table {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.work-table td {
+  padding-bottom: 10px;
+}
+
+.work-table td:nth-child(2),
+.work-table td:nth-child(3) {
+  color: #86898f;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0%;
+  
+}
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+  text-align: center;
+
+}
+
+.form-group label {
+  display: block;
+  font-size: 15px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  /* background: transparent; */
+ border-bottom: 1px solid #ccc;
+ color: #000;
+ padding: 15px 0px 10px;
+ outline: none;
+ font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+  
+}
+
+.row > .form-group {
+  width: 50%;
+  
+}
+
+.row > .form-group:first-child {
+  margin-right: 20px;
+} 
+
+.button {
+  background: #111;
+  padding: 10px 40px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Position */
+
+/* .position {
+  position: relative;
+  border: 4px solid black;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+
+}
+
+.box {
+  position: fixed;
+  bottom: 0;
+   top: 50px;
+  left: 20px; 
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+} */
+
+
+
+
+/* Скидає всі налаштування відступів в СSS
+Змінює всі налаштування відступів CSS */
+
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+/* .social_media {
+    background: green; */
+
+    /* Внутрішній відступ */
+    /* padding: 15px ; */
+    
+    /* Зовнішній відступ від контенту */
+    /* margin: 5px; */
+    
+    /* Зовнішній відступ */
+    /* border: 5px solid red; */
+    /* border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: blue;
+    border-bottom-color: blue; */
+
+/* } */
+
+
+
+
+
+/* Приклад як зробити, щоб бокс вираховувався зразу з всіма значиннями(margin,border,padding) */
+  /* .box-model div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+
+ Головна команда   
+box-sizing: border-box;
+
+}   */
